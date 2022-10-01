@@ -1,0 +1,82 @@
+.navbar{
+    background-color: gray;
+    height: 100px;
+}
+a{
+    line-height: 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+.main{
+    background-color: black;
+    
+}
+.left{
+    background-color: gray;
+    height: 800px;
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+.center{
+    background-color: gray;
+    height: 800px;
+    float: left;
+    width: 55%;
+    margin: 10px;
+}
+.right{
+    background-color: gray;
+    height: 800px;
+    float:left;
+    width: 20%;
+    margin: 10px;
+}
+.parentcards{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 23%;
+    background-color: black;
+    margin: 10px;
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+        height: auto;
+
+    }
+    a{
+        display: block;
+        line-height: 40px;
+        padding: 10px;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100%;
+        height: 300px;
+    }
+    .center{
+        width: 100%;
+        height: 400px;
+    }
+    .right{
+        width: 100%;
+        height: 300px;
+    }
+    .card{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .card{
+        width: 80%;
+    }
+}

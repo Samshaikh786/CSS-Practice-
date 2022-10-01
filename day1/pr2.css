@@ -1,0 +1,109 @@
+*{
+    color:darkblue}
+    h1{
+    display: inline;
+    text-decoration: overline;
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+            padding-left: 400px; }
+p{
+    text-indent: 80px;
+    color: brown;
+    text-transform: lowercase;
+    word-spacing: 5px ;
+    letter-spacing: 1px;
+}  
+.div{
+    padding: 20px 20px 20px 20px;
+    margin: 30px 30px 30px 30px;
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+} 
+.class2{
+    height: 500px;
+    width: 500px;
+    /* white-space: nowrap; */
+    overflow: auto;
+}      
+.p2{
+    color: crimson;
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    
+}  
+.z1{height: 200px;
+    width: 200px;
+    background-color:cornflowerblue;
+    
+    position: relative;
+    margin: 10px;
+    z-index: 3;
+
+}
+.z2{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    position: relative;
+    left:100px;
+    margin: 10px;
+z-index: 2;
+}
+.z3{
+    height: 200px;
+    width: 200px;
+    background-color:brown;
+    position: relative;
+    left: 200px;
+    margin: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+.p3::first-letter{
+    color: chartreuse;
+    background-color: darkgray;
+    font-style: italic;
+    font-size: 30px;
+}
+.p3::first-line{
+    color: brown;
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-style: italic;
+}
+.p3::before{
+    content: "hello world";
+    background-color:brown;
+    color: dimgrey;
+}
+.p3::after{
+    content: "end";
+    background-color:darkolivegreen;
+    color: indigo;
+}
+#xyz ::marker{
+    color: red;
+}
+.a1:link{
+    color: blue;
+}
+.a2:visited{
+    color: grey;
+}
+.a3:hover{
+    color: black;
+}
+.a4:active{
+    color: brown;
+}
+.a5:disabled{
+    color: yellowgreen;
+}
+.a6:checked{
+    color: fuchsia;
+}

@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 0px;
+
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(/HTML-CSS/Assets/ooo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 80%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+nav p{
+    color: black;
+    font-size: 50px;
+}
+
+.navlinks{
+    flex: 1;
+    text-align: right;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 12px;
+    position: relative;
+    
+}
+.navlinks ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.frsthead{ 
+    color: darkred;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 430px;
+    font-size: 30px;
+    
+}
+.frstpar{
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.frstbut{
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    border-radius: 3px;
+
+    
+}
+.frstbut:hover{
+    background-color: rgb(165, 165, 238);
+    cursor: pointer;
+
+}
+.our{
+    display: inline-block;
+    margin-left: 500px;
+}
+.fr{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    border-radius: 20% 40% 20% 40% ;
+    background-color: orangered;
+}
+.center{
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.center h1{
+    font-size: 50px;
+}
+.center p{
+    margin: 10px 0 40px;
+    font-size: 13px;
+    color: aliceblue;
+}
